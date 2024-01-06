@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Bree Serif', serif;
+}
+
+
+nav ul{
+    display: flex;
+    background-color: rgb(90, 15, 74);
+    height: 35px;
+    align-items: center;
+    color: white;
+}
+
+nav ul li{
+
+    list-style: none;
+    margin: 5px 10px;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0px;
+    position: relative;
+}
+
+.container-left{
+
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+  
+
+}
+
+.container-right{
+    font-size: 5vw;
+    padding: 25px;
+}
+.container-right p{
+   
+   margin-bottom: 15px;
+}
+
+.box{
+    text-align: center;
+    font-size: 9vw;
+    
+    border: 1px solid black;
+}
+
+
+.line{
+    width: 0;
+    height: 3px;
+    background-color: rgb(86, 3, 77);
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    transition: width 1s ease-in-out;
+}
+
+
+
+
+.bt-0{
+    border-top: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
